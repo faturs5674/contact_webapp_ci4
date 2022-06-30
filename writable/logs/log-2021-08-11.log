@@ -1,0 +1,106 @@
+CRITICAL - 2021-08-11 01:54:01 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('client/')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('client/')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-11 01:54:18 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-11 01:54:21 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-11 02:33:30 --> Invalid file: client_transaksi/tabel.php
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client_transaks...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('client_transaks...', Array, true)
+#2 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(12): view('client_transaks...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->index()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#8 {main}
+CRITICAL - 2021-08-11 03:05:02 --> Cannot declare class App\Controllers\Masterdata, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-11 03:25:49 --> Unknown column 'clien_nama' in 'field list'
+CRITICAL - 2021-08-11 03:25:49 --> Unknown column 'clien_nama' in 'field list'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `cl...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamm\htdocs\pkl\app\Controllers\Client.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\client->save()
+#10 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client))
+#11 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#14 {main}
+ERROR - 2021-08-11 03:25:50 --> Unknown column 'clien_nama' in 'field list'
+CRITICAL - 2021-08-11 03:25:50 --> Unknown column 'clien_nama' in 'field list'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `cl...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamm\htdocs\pkl\app\Controllers\Client.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\client->save()
+#10 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client))
+#11 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#14 {main}
+ERROR - 2021-08-11 03:27:23 --> Unknown column 'clien_nama' in 'field list'
+CRITICAL - 2021-08-11 03:27:23 --> Unknown column 'clien_nama' in 'field list'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `cl...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamm\htdocs\pkl\app\Controllers\Client.php(36): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\client->save()
+#10 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client))
+#11 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#14 {main}
+CRITICAL - 2021-08-11 04:05:12 --> Undefined index: client_status
+#0 C:\xamm\htdocs\pkl\app\Views\client\update.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 30, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/client/update', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Client.php(47): view('/client/update', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\client->update('1')
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-11 04:46:19 --> syntax error, unexpected ''status'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('client/index')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('client/index')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-11 04:46:42 --> syntax error, unexpected ''status'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('client/index')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('client/index')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}

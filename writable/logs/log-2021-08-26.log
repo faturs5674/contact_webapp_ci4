@@ -1,0 +1,270 @@
+CRITICAL - 2021-08-26 09:35:47 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 09:36:08 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 09:36:10 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 09:36:31 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 09:39:50 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 09:40:16 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 09:57:21 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:08:26 --> Object of class stdClass could not be converted to string
+#0 C:\xamm\htdocs\pkl\app\Views\setting\tabel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xamm\\htdocs\\...', 23, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('setting/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Setting.php(39): view('setting/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Setting->index()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 10:08:59 --> Cannot use object of type stdClass as array
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('setting/tabel', Array, true)
+#3 C:\xamm\htdocs\pkl\app\Controllers\Setting.php(39): view('setting/tabel', Array)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Setting->index()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-26 10:13:02 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:13:04 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:15:22 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:24:28 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:24:36 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:26:15 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:28:26 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:28:28 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:28:29 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:28:30 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:28:31 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:28:31 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:47:35 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:49:39 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:50:41 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:52:35 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 10:54:04 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 11:01:59 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 11:18:03 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 11:18:43 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 11:20:27 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 11:23:23 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 11:24:43 --> Undefined index: set_invoice_cooldown
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 70, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 13:20:37 --> Undefined variable: pager
+#0 C:\xamm\htdocs\pkl\app\Views\setting\tabel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 35, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('setting/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Setting.php(39): view('setting/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Setting->index()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-26 14:51:47 --> Array to string conversion
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamm\\htdocs\\...', 71, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('1')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 14:52:45 --> Undefined index: id
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 71, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('1')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 15:32:29 --> Undefined index: id
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 71, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-26 15:59:19 --> Undefined index: id
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 71, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('3')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,233 @@
+CRITICAL - 2021-09-28 10:53:10 --> A non-numeric value encountered
+#0 C:\xamm\htdocs\pkl\app\Views\pages\dashboard.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xamm\\htdocs\\...', 113, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Home.php(40): view('pages/dashboard', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 11:53:43 --> Undefined variable: tahun
+#0 C:\xamm\htdocs\pkl\app\Views\pages\dashboard.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 113, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Home.php(25): view('pages/dashboard', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 13:43:07 --> A non-numeric value encountered
+#0 C:\xamm\htdocs\pkl\app\Views\pages\dashboard.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xamm\\htdocs\\...', 219, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Home.php(30): view('pages/dashboard', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-28 14:07:29 --> Not unique table/alias: 'setting'
+CRITICAL - 2021-09-28 14:07:29 --> Not unique table/alias: 'setting'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->g()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-28 14:08:50 --> Not unique table/alias: 'setting'
+CRITICAL - 2021-09-28 14:08:50 --> Not unique table/alias: 'setting'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->g()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-28 14:08:53 --> Not unique table/alias: 'setting'
+CRITICAL - 2021-09-28 14:08:53 --> Not unique table/alias: 'setting'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->g()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-28 14:09:51 --> Not unique table/alias: 'setting'
+CRITICAL - 2021-09-28 14:09:51 --> Not unique table/alias: 'setting'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->g()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-28 14:20:30 --> Call to undefined method stdClass::select()
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(1)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-28 14:21:21 --> Column 'client_id' in where clause is ambiguous
+CRITICAL - 2021-09-28 14:21:21 --> Column 'client_id' in where clause is ambiguous
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `client_...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `client_...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `client_...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `client_...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(1)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-28 14:22:38 --> Undefined offset: 0
+#0 C:\xamm\htdocs\pkl\app\Models\M_setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamm\\htdocs\\...', 37, Array)
+#1 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 14:24:23 --> Undefined offset: 0
+#0 C:\xamm\htdocs\pkl\app\Models\M_setting.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamm\\htdocs\\...', 35, Array)
+#1 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 14:25:00 --> Undefined offset: 0
+#0 C:\xamm\htdocs\pkl\app\Models\M_setting.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamm\\htdocs\\...', 35, Array)
+#1 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 14:31:16 --> Undefined offset: 0
+#0 C:\xamm\htdocs\pkl\app\Models\M_setting.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamm\\htdocs\\...', 35, Array)
+#1 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 14:33:11 --> Array to string conversion
+#0 C:\xamm\htdocs\pkl\app\Views\template\email.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamm\\htdocs\\...', 12, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/template/email', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(41): view('/template/email', Array)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-28 14:33:51 --> Object of class stdClass could not be converted to string
+#0 C:\xamm\htdocs\pkl\app\Views\template\email.php(12): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xamm\\htdocs\\...', 12, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/template/email', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(41): view('/template/email', Array)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-28 14:34:18 --> Array to string conversion
+#0 C:\xamm\htdocs\pkl\app\Views\template\email.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamm\\htdocs\\...', 13, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/template/email', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(41): view('/template/email', Array)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-28 14:34:43 --> Undefined offset: 0
+#0 C:\xamm\htdocs\pkl\app\Views\template\email.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamm\\htdocs\\...', 13, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/template/email', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(41): view('/template/email', Array)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-28 14:35:17 --> Trying to get property 'set_invoice_cooldown' of non-object
+#0 C:\xamm\htdocs\pkl\app\Views\template\email.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamm\\htdocs\\...', 13, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/template/email', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(41): view('/template/email', Array)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-28 14:35:44 --> Undefined offset: 0
+#0 C:\xamm\htdocs\pkl\app\Views\template\email.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamm\\htdocs\\...', 13, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/template/email', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Models\M_setting.php(41): view('/template/email', Array)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-28 14:44:40 --> Undefined offset: 0
+#0 C:\xamm\htdocs\pkl\app\Models\M_setting.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamm\\htdocs\\...', 38, Array)
+#1 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 14:45:42 --> Undefined offset: 0
+#0 C:\xamm\htdocs\pkl\app\Models\M_setting.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamm\\htdocs\\...', 36, Array)
+#1 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 14:47:23 --> Undefined offset: 0
+#0 C:\xamm\htdocs\pkl\app\Models\M_setting.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamm\\htdocs\\...', 33, Array)
+#1 C:\xamm\htdocs\pkl\app\Controllers\Home.php(19): App\Models\M_setting->gmail(13)
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,87 @@
+CRITICAL - 2021-10-01 10:54:11 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xamm\htdocs\pkl\app\Controllers\Setting.php(33): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xamm\\htdocs\\...', 33, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Setting->tampilsatu()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-01 13:34:21 --> Table 'gull.user' doesn't exist
+CRITICAL - 2021-10-01 13:34:21 --> Table 'gull.user' doesn't exist
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamm\htdocs\pkl\app\Controllers\User.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dt_users()
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-01 13:41:30 --> A non well formed numeric value encountered
+#0 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xamm\\htdocs\\...', 74, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->get('4')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 13:43:36 --> A non well formed numeric value encountered
+#0 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xamm\\htdocs\\...', 74, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->get('4')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-01 13:46:32 --> Unknown column 'setting.id' in 'on clause'
+CRITICAL - 2021-10-01 13:46:32 --> Unknown column 'setting.id' in 'on clause'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_ctransaksi.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(61): App\Models\M_ctransaksi->getclient()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->dt_tabel()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-01 13:47:38 --> Unknown column 'setting.id' in 'on clause'
+CRITICAL - 2021-10-01 13:47:38 --> Unknown column 'setting.id' in 'on clause'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_ctransaksi.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(61): App\Models\M_ctransaksi->getclient()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->dt_tabel()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-01 13:48:57 --> Unknown column 'setting.id' in 'on clause'
+CRITICAL - 2021-10-01 13:48:57 --> Unknown column 'setting.id' in 'on clause'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_ctransaksi.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(61): App\Models\M_ctransaksi->getclient()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->dt_tabel()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-01 13:49:20 --> Unknown column 'setting.id' in 'on clause'
+CRITICAL - 2021-10-01 13:49:20 --> Unknown column 'setting.id' in 'on clause'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_ctransaksi.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(61): App\Models\M_ctransaksi->getclient()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->dt_tabel()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

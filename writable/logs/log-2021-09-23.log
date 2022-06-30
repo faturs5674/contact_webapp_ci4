@@ -1,0 +1,112 @@
+CRITICAL - 2021-09-23 10:17:07 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 10:17:07 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 10:17:07 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 10:17:08 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 10:25:29 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 10:25:30 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 10:25:30 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 10:25:30 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 10:25:30 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 10:25:30 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 11:57:05 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 11:57:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 11:57:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 11:57:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 11:57:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 11:57:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 11:57:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 11:57:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 12:05:32 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 12:05:32 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 12:05:32 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 13:21:27 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 13:21:27 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 13:21:27 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 13:21:27 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 13:21:28 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 13:29:49 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 13:38:09 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-23 14:12:23 --> Undefined index: parameter
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 35, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 14:13:26 --> Undefined index: parameter
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 35, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 14:14:12 --> Undefined variable: data
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 39, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 14:14:47 --> Undefined variable: data
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 32, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,264 @@
+CRITICAL - 2021-08-10 19:35:37 --> syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 19:38:00 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 19:44:12 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 19:44:38 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 19:44:42 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 19:45:30 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 19:47:50 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 19:48:47 --> Class 'App\Models\M_Masterdata' not found
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Masterdata->__construct()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-10 19:53:58 --> You must set the database table to be used with your query.
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(189): CodeIgniter\Model->builder()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(13): CodeIgniter\BaseModel->findAll()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->user_toko()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#9 {main}
+CRITICAL - 2021-08-10 20:52:38 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 20:53:43 --> syntax error, unexpected end of file
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/tabel', Array, true)
+#2 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(17): view('pages/tabel', Array)
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->user_toko()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#8 {main}
+CRITICAL - 2021-08-10 20:55:30 --> Undefined variable: tabel
+#0 C:\xamm\htdocs\pkl\app\Views\pages\tabel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 19, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(17): view('pages/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->user_toko()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-10 21:03:05 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 21:13:44 --> Undefined index: create_time
+#0 C:\xamm\htdocs\pkl\app\Views\pages\tabel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 26, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(18): view('pages/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->user_toko()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-10 21:19:33 --> Undefined index: create_time
+#0 C:\xamm\htdocs\pkl\app\Views\pages\tabel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 26, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(18): view('pages/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->user_toko()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-10 21:21:43 --> Undefined index: create_time
+#0 C:\xamm\htdocs\pkl\app\Views\pages\tabel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 26, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(18): view('pages/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->user_toko()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-10 21:21:45 --> Undefined index: create_time
+#0 C:\xamm\htdocs\pkl\app\Views\pages\tabel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 26, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(18): view('pages/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->user_toko()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-10 21:29:55 --> Undefined index: id
+#0 C:\xamm\htdocs\pkl\app\Views\pages\tabel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 39, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(18): view('pages/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->user_toko()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-10 21:30:31 --> Undefined index: id
+#0 C:\xamm\htdocs\pkl\app\Views\pages\tabel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 39, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(18): view('pages/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->user_toko()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-10 21:55:24 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 22:07:05 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 22:44:00 --> Undefined variable: route
+#0 C:\xamm\htdocs\pkl\app\Config\Routes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 40, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(796): require('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 22:53:02 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Masterdata/1')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Masterdata/1')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 23:08:14 --> Undefined variable: tabel
+#0 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 26, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->update('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 23:30:26 --> Undefined index: no_hp
+#0 C:\xamm\htdocs\pkl\app\Views\pages\update.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamm\\htdocs\\...', 12, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/update', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(29): view('pages/update', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->update('2')
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-10 23:36:39 --> Undefined property: App\Controllers\Masterdata::$tabelModel
+#0 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamm\\htdocs\\...', 32, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->hupdate('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 23:37:12 --> Undefined variable: id
+#0 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 33, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->hupdate('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-10 23:37:43 --> Allowed fields must be specified for model: App\Models\M_Masterdata
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_Ma...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(890): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\BaseModel.php(683): CodeIgniter\Model->update('2', Array)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(38): CodeIgniter\BaseModel->save(Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->hupdate('2')
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}

@@ -1,0 +1,14 @@
+CRITICAL - 2021-09-10 15:40:28 --> Trying to get property 'set_invoice_cooldown' of non-object
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamm\\htdocs\\...', 66, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('1')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-10 16:49:12 --> Trying to get property 'set_invoice_cooldown' of non-object
+#0 C:\xamm\htdocs\pkl\app\Controllers\restful.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamm\\htdocs\\...', 66, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\restful->update('1')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\restful))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,14 @@
+CRITICAL - 2021-09-27 15:38:54 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xamm\htdocs\pkl\app\Controllers\login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xamm\\htdocs\\...', 47, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-27 15:38:54 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xamm\htdocs\pkl\app\Controllers\login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xamm\\htdocs\\...', 47, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

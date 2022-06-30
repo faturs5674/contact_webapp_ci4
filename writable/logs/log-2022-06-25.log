@@ -1,0 +1,14 @@
+ERROR - 2022-06-25 18:19:25 --> Table 'contact_di4.client' doesn't exist
+CRITICAL - 2022-06-25 18:19:25 --> Table 'contact_di4.client' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(`c...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`c...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`c...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`c...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\app\Models\M_client.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\app\Controllers\Home.php(22): App\Models\M_client->tabel()
+#6 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->grafik()
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

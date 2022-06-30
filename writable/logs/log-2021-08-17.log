@@ -1,0 +1,3 @@
+ERROR - 2021-08-17 21:48:59 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2021-08-17 21:52:44 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2021-08-17 22:13:23 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()

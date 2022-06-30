@@ -1,0 +1,304 @@
+ERROR - 2021-08-09 01:10:55 --> Table 'ci4.kabupaten_kota' doesn't exist
+CRITICAL - 2021-08-09 01:10:55 --> Table 'ci4.kabupaten_kota' doesn't exist
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM k...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#9 {main}
+ERROR - 2021-08-09 01:13:08 --> Table 'ci4.sidebar' doesn't exist
+CRITICAL - 2021-08-09 01:13:08 --> Table 'ci4.sidebar' doesn't exist
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `sb`.`si...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sb`.`si...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sb`.`si...')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `sb`.`si...', Array, false)
+#4 C:\xamm\htdocs\pkl\app\Models\M_sidebar.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamm\htdocs\pkl\app\Views\template\administrator.php(126): App\Models\M_sidebar->get_list()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template/admini...', Array, true)
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#10 C:\xamm\htdocs\pkl\app\Controllers\Home.php(11): view('index')
+#11 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#12 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#16 {main}
+CRITICAL - 2021-08-09 01:41:33 --> Call to a member function findAll() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 01:50:09 --> Call to a member function findAll() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 01:55:41 --> Call to a member function find() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 02:11:52 --> Call to a member function query() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 02:20:53 --> Undefined variable: row
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 16, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:23:18 --> Illegal string offset 'nama'
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:25:30 --> Illegal string offset 'username'
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:27:50 --> Illegal string offset 'user_id'
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:37:16 --> syntax error, unexpected ')'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#2 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#8 {main}
+CRITICAL - 2021-08-09 02:37:46 --> Undefined variable: tabe
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:39:02 --> Illegal string offset 'username'
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:55:23 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#2 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#8 {main}
+CRITICAL - 2021-08-09 02:55:50 --> Undefined variable: username
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:56:54 --> Trying to get property 'username' of non-object
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:57:34 --> Trying to get property 'username' of non-object
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:58:09 --> Trying to get property 'username' of non-object
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 02:58:59 --> Trying to get property 'username' of non-object
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamm\\htdocs\\...', 21, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 03:30:12 --> Illegal string offset 'username'
+#0 C:\xamm\htdocs\pkl\app\Views\pages\pengguna.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamm\\htdocs\\...', 20, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/pengguna', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Masterdata.php(26): view('pages/pengguna', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-09 04:01:18 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/peng...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/peng...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-09 04:02:40 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/peng...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/peng...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-09 04:06:01 --> Call to a member function tabel() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 04:07:47 --> Call to a member function findAll() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 04:15:53 --> Call to a member function findAll() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 04:28:53 --> Call to a member function findAll() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 04:42:44 --> Call to a member function findAll() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 19:39:22 --> Call to a member function findAll() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 19:42:03 --> Call to a member function findAll() on null
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Masterdata->pengguna()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-09 20:13:51 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-09 20:14:21 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('masterdata/user...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('masterdata/user...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}

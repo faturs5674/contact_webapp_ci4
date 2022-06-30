@@ -1,0 +1,198 @@
+ERROR - 2022-06-21 22:11:41 --> Table 'contact_di4.user' doesn't exist
+CRITICAL - 2022-06-21 22:11:41 --> Table 'contact_di4.user' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\contactapp_ci4\app\Controllers\login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-21 22:11:44 --> Table 'contact_di4.user' doesn't exist
+CRITICAL - 2022-06-21 22:11:44 --> Table 'contact_di4.user' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\contactapp_ci4\app\Controllers\login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-21 22:11:47 --> Table 'contact_di4.user' doesn't exist
+CRITICAL - 2022-06-21 22:11:47 --> Table 'contact_di4.user' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\contactapp_ci4\app\Controllers\login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-21 22:11:48 --> Table 'contact_di4.user' doesn't exist
+CRITICAL - 2022-06-21 22:11:48 --> Table 'contact_di4.user' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\contactapp_ci4\app\Controllers\login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-21 22:11:48 --> Table 'contact_di4.user' doesn't exist
+CRITICAL - 2022-06-21 22:11:48 --> Table 'contact_di4.user' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\contactapp_ci4\app\Controllers\login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-21 22:11:49 --> Table 'contact_di4.user' doesn't exist
+CRITICAL - 2022-06-21 22:11:49 --> Table 'contact_di4.user' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\contactapp_ci4\app\Controllers\login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-21 22:13:03 --> Table 'contact_di4.sidebar' doesn't exist
+CRITICAL - 2022-06-21 22:13:03 --> Table 'contact_di4.sidebar' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `sb`.`si...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sb`.`si...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sb`.`si...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `sb`.`si...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\app\Models\M_sidebar.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\app\Views\template\administrator.php(117): App\Models\M_sidebar->get_list()
+#6 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template/admini...', Array, true)
+#9 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#10 C:\xampp\htdocs\contactapp_ci4\app\Controllers\Home.php(31): view('pages/dashboard')
+#11 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#12 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2022-06-21 22:14:39 --> Table 'contact_di4.sidebar' doesn't exist
+CRITICAL - 2022-06-21 22:14:39 --> Table 'contact_di4.sidebar' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `sb`.`si...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sb`.`si...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sb`.`si...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `sb`.`si...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\app\Models\M_sidebar.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\app\Views\template\administrator.php(117): App\Models\M_sidebar->get_list()
+#6 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template/admini...', Array, true)
+#9 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#10 C:\xampp\htdocs\contactapp_ci4\app\Controllers\Home.php(31): view('pages/dashboard')
+#11 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#12 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2022-06-21 22:15:53 --> Table 'contact_di4.client' doesn't exist
+CRITICAL - 2022-06-21 22:15:53 --> Table 'contact_di4.client' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(`c...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`c...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`c...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`c...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\app\Models\M_client.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\app\Controllers\Home.php(22): App\Models\M_client->tabel()
+#6 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->grafik()
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-21 22:17:11 --> Table 'contact_di4.client' doesn't exist
+CRITICAL - 2022-06-21 22:17:11 --> Table 'contact_di4.client' doesn't exist
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(`c...')
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`c...')
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`c...')
+#3 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`c...', Array, false)
+#4 C:\xampp\htdocs\contactapp_ci4\app\Models\M_client.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\contactapp_ci4\app\Controllers\Home.php(22): App\Models\M_client->tabel()
+#6 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->grafik()
+#7 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-21 22:18:01 --> Class 'app\Models\M_akun' not found
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\akun->__construct()
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-21 22:20:52 --> Class 'app\Models\M_akun' not found
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\akun->__construct()
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-21 22:21:58 --> Class 'app\Models\M_akun' not found
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\akun->__construct()
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-21 22:24:40 --> Class 'app\Models\M_akun' not found
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\akun->__construct()
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-21 22:25:55 --> Class 'app\Models\M_akun' not found
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\akun->__construct()
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-21 22:27:00 --> Class 'app\Models\M_akun' not found
+#0 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Akun->__construct()
+#1 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\contactapp_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\contactapp_ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

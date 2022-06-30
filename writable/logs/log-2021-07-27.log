@@ -1,0 +1,270 @@
+CRITICAL - 2021-07-27 06:41:27 --> Call to undefined method App\Models\TabelModel::getTabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('getTabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 06:46:37 --> Call to undefined method App\Models\TabelModel::getTabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('getTabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 06:49:24 --> Call to undefined method App\Models\TabelModel::gettabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('gettabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 06:49:25 --> Call to undefined method App\Models\TabelModel::gettabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('gettabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 06:50:09 --> Call to undefined method App\Models\TabelModel::tabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('tabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 06:50:34 --> Call to undefined method App\Models\TabelModel::tabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('tabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 06:51:26 --> Call to undefined method App\Models\TabelModel::gettabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('gettabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 06:51:34 --> Call to undefined method App\Models\TabelModel::getTabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('getTabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 07:19:49 --> Call to undefined method App\Models\TabelModel::getTabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('getTabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 07:24:35 --> Call to undefined method App\Models\TabelModel::getTabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('getTabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 07:24:56 --> Call to undefined method App\Models\TabelModel::getTabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('getTabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 07:24:58 --> Call to undefined method App\Models\TabelModel::getTabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('getTabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-27 07:35:54 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->edit('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:36:39 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/edit', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/edit', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->edit('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:37:00 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/edit', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/edit', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->edit('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:37:59 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/edit', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/edit', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->edit('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:41:36 --> Invalid file: tabel/update.php
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabel/update.ph...')
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#4 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-27 07:41:56 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:44:49 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:47:27 --> Undefined variable: table
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:47:49 --> Undefined variable: table
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:47:51 --> Undefined variable: table
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:48:37 --> Undefined variable: table
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:48:42 --> Undefined variable: table
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:48:57 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 07:51:24 --> Undefined variable: t
+#0 C:\xampp\htdocs\ci4\app\Views\tabel\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('tabel/update', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(57): view('tabel/update', Array)
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#7 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-27 08:02:22 --> Call to undefined method App\Models\TabelModel::getTabel
+#0 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(54): CodeIgniter\Model->__call('getTabel', Array)
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->update('6')
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#3 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

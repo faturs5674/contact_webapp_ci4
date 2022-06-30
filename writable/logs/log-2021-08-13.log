@@ -1,0 +1,49 @@
+CRITICAL - 2021-08-13 01:02:16 --> Too few arguments to function App\Controllers\ClientTransaksi::ctransaksi(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-13 01:07:14 --> Too few arguments to function App\Controllers\ClientTransaksi::ctransaksi(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-13 01:08:41 --> Too few arguments to function App\Controllers\ClientTransaksi::ctransaksi(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-13 01:09:16 --> Too few arguments to function App\Controllers\ClientTransaksi::ctransaksi(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-13 01:09:19 --> Too few arguments to function App\Controllers\ClientTransaksi::ctransaksi(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-13 02:34:44 --> Too few arguments to function App\Controllers\ClientTransaksi::ctransaksi(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-13 02:51:31 --> Too few arguments to function App\Controllers\ClientTransaksi::ctransaksi(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}

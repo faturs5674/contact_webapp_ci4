@@ -1,0 +1,40 @@
+CRITICAL - 2021-07-31 05:57:44 --> Too few arguments to function App\Controllers\Tabel::delete(), 0 passed in C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->delete()
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-31 06:20:38 --> reqiured is not a valid rule.
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('reqiured')
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('alamat', 'alamat', 'we', Array, Array)
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(44): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->save()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-07-31 06:23:03 --> reqiured is not a valid rule.
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('reqiured')
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('alamat', 'alamat', 'we', Array, Array)
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(44): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->save()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-07-31 06:23:11 --> reqiured is not a valid rule.
+#0 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('reqiured')
+#1 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('alamat', 'alamat', 'we', Array, Array)
+#2 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ci4\app\Controllers\Tabel.php(44): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Tabel->save()
+#5 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+#6 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}

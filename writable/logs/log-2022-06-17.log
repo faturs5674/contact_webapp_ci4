@@ -1,0 +1,93 @@
+ERROR - 2022-06-17 05:52:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-17 05:52:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Customers Retionship Management\app\Controllers\login.php(26): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#6 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#7 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Customers Retionship Management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-17 05:52:58 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-17 05:52:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Customers Retionship Management\app\Controllers\login.php(26): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#6 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#7 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Customers Retionship Management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-17 18:34:00 --> Invalid file: /home.php
+#0 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/home.php')
+#1 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/home', Array, true)
+#2 C:\xampp\htdocs\Customers Retionship Management\app\Controllers\login.php(41): view('/home')
+#3 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#4 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Customers Retionship Management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-17 18:42:22 --> Invalid file: /home.php
+#0 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/home.php')
+#1 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/home', Array, true)
+#2 C:\xampp\htdocs\Customers Retionship Management\app\Controllers\login.php(41): view('/home')
+#3 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#4 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Customers Retionship Management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-17 18:42:22 --> Invalid file: /home.php
+#0 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/home.php')
+#1 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/home', Array, true)
+#2 C:\xampp\htdocs\Customers Retionship Management\app\Controllers\login.php(41): view('/home')
+#3 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#4 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Customers Retionship Management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-17 19:31:53 --> Invalid file: /home.php
+#0 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/home.php')
+#1 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/home', Array, true)
+#2 C:\xampp\htdocs\Customers Retionship Management\app\Controllers\login.php(41): view('/home')
+#3 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#4 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Customers Retionship Management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-17 19:47:53 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#1 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#2 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Customers Retionship Management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-17 19:48:09 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#1 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#2 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Customers Retionship Management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-17 19:48:12 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->auth()
+#1 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#2 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Customers Retionship Management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Customers Retionship Management\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

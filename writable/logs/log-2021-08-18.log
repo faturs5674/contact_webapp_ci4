@@ -1,0 +1,254 @@
+CRITICAL - 2021-08-18 01:36:52 --> Invalid file: setting/index.php
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting/index.p...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('setting/index', Array, true)
+#2 C:\xamm\htdocs\pkl\app\Controllers\Setting.php(43): view('setting/index')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Setting->gmail('iqbalmubaroq30@...')
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#8 {main}
+CRITICAL - 2021-08-18 01:37:13 --> Invalid file: setting/index.php
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting/index.p...')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('setting/index', Array, true)
+#2 C:\xamm\htdocs\pkl\app\Controllers\Setting.php(43): view('setting/index')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Setting->gmail('iqbalmubaroq30@...')
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#8 {main}
+CRITICAL - 2021-08-18 01:41:46 --> Undefined variable: tabel
+#0 C:\xamm\htdocs\pkl\app\Views\setting\tabel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 23, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('setting/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Setting.php(43): view('setting/tabel')
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Setting->gmail('iqbalmubaroq30@...')
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-18 04:09:40 --> Class 'App\Controllers\Time' not found
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi('2')
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-18 04:10:31 --> Object of class CodeIgniter\I18n\Time could not be converted to number
+#0 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xamm\\htdocs\\...', 33, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-18 04:24:06 --> A non well formed numeric value encountered
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\I18n\Time.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xamm\\htdocs\\...', 210, Array)
+#1 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(32): CodeIgniter\I18n\Time::createFromDate('2018, 3, 15,', 'America/Chicago', 'en_US')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi('2')
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#7 {main}
+CRITICAL - 2021-08-18 04:34:38 --> A non well formed numeric value encountered
+#0 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xamm\\htdocs\\...', 37, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi('2')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-18 20:05:07 --> Call to undefined function logged_id()
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template/admini...', Array, true)
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Home.php(12): view('index')
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-18 21:53:14 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-18 21:53:59 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-18 21:55:32 --> Undefined variable: tabel
+#0 C:\xamm\htdocs\pkl\app\Views\template\administrator.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 127, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template/admini...', Array, true)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(17): view('index')
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#11 {main}
+CRITICAL - 2021-08-18 21:56:16 --> Undefined property: App\Controllers\Home::$UserModel
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamm\\htdocs\\...', 13, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-18 22:02:00 --> Undefined property: App\Controllers\Home::$UserModel
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamm\\htdocs\\...', 13, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-18 22:05:04 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-18 22:11:26 --> Undefined variable: user
+#0 C:\xamm\htdocs\pkl\app\Views\template\administrator.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 128, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template/admini...', Array, true)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('client_transaks...', Array, true)
+#5 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(27): view('client_transaks...', Array)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#11 {main}
+CRITICAL - 2021-08-18 22:14:03 --> Undefined variable: user
+#0 C:\xamm\htdocs\pkl\app\Views\template\administrator.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 128, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template/admini...', Array, true)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(13): view('index')
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#11 {main}
+CRITICAL - 2021-08-18 22:14:07 --> Undefined variable: user
+#0 C:\xamm\htdocs\pkl\app\Views\template\administrator.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 128, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template/admini...', Array, true)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Home.php(13): view('index')
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#11 {main}
+CRITICAL - 2021-08-18 22:19:47 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-18 22:19:50 --> Undefined variable: user
+#0 C:\xamm\htdocs\pkl\app\Views\template\administrator.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 128, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template/admini...', Array, true)
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/client/tabel', Array, true)
+#5 C:\xamm\htdocs\pkl\app\Controllers\Client.php(22): view('/client/tabel', Array)
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\client->index()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\client))
+#8 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#11 {main}
+CRITICAL - 2021-08-18 22:19:55 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#5 {main}
+CRITICAL - 2021-08-18 22:20:23 --> Call to undefined method Myth\Auth\Models\UserModel::gettabel
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(17): CodeIgniter\Model->__call('gettabel', Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-18 22:21:24 --> Call to undefined method Myth\Auth\Models\UserModel::gettabel
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(17): CodeIgniter\Model->__call('gettabel', Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-18 22:21:25 --> Call to undefined method Myth\Auth\Models\UserModel::gettabel
+#0 C:\xamm\htdocs\pkl\app\Controllers\Home.php(17): CodeIgniter\Model->__call('gettabel', Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-18 22:42:46 --> A non well formed numeric value encountered
+#0 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xamm\\htdocs\\...', 33, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi('1')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-18 22:49:12 --> A non well formed numeric value encountered
+#0 C:\xamm\htdocs\pkl\app\Controllers\ClientTransaksi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xamm\\htdocs\\...', 33, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ClientTransaksi->ctransaksi('1')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientTransaksi))
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#6 {main}
+CRITICAL - 2021-08-18 23:21:47 --> Undefined variable: id
+#0 C:\xamm\htdocs\pkl\app\Views\setting\tabel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamm\\htdocs\\...', 33, Array)
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamm\\htdocs\\...')
+#2 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('setting/tabel', Array, true)
+#4 C:\xamm\htdocs\pkl\app\Controllers\Setting.php(28): view('setting/tabel', Array)
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Setting->index()
+#6 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#10 {main}
+CRITICAL - 2021-08-18 23:23:23 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('setting/tabel', Array, true)
+#2 C:\xamm\htdocs\pkl\app\Controllers\Setting.php(28): view('setting/tabel', Array)
+#3 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Setting->index()
+#4 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamm\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamm\htdocs\pkl\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamm\\htdocs\\...')
+#8 {main}
